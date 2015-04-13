@@ -1,0 +1,43 @@
+<Window x:Class="OpenVoice.TriggersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Triggers" Height="400" Width="600" Background="{DynamicResource ButtonBackgroundBrush}" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="0" AutoGenerateColumns="False" ItemsSource="{Binding}" Name="TriggersDataGrid" Background="{DynamicResource ButtonBackgroundBrush}" Foreground="#FFBABABA" IsReadOnly="True" HeadersVisibility="Column" Margin="10,10,10,0" FontSize="14" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" ColumnWidth="*" SelectionUnit="FullRow">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#FF565656" />
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Padding" Value="10" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="#FF00AADE" />
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Padding" Value="50" />
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Padding" Value="10" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="Trigger" Binding="{Binding inputsString}" Header="Trigger" Foreground="Gray"/>
+                <DataGridTextColumn x:Name="Actions" Binding="{Binding actionsString}" Header="Actions" Foreground="Gray"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Add" HorizontalAlignment="Left"   VerticalAlignment="Center" Width="75" Margin="10"/>
+            <Button Content="Remove" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="75" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
