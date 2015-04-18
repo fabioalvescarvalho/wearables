@@ -1,0 +1,41 @@
+THE PERSONAL DISPLAY TALK 
+
+Technical report for The Personal Display Talk
+
+Executive Summary
+
+The Personal Display needed a Speech-to-Text system and a microphone (in order to edit information through speech-to-text software). The System is using .NET Framework 4.5
+
+1: Introduction
+
+We have developed speech-to-Text system (The Personal Display Talk) so that the user can interact intuitively with his or her environment in order to both obtain and edit location specific information without interrupting workflow. The innovation “The Personal Display” uses several current technologies such as Near Field Communication, Eye tracking and Speech-to-Text. I have developed the Speech-to-text part for the concept.
+
+2: Methodology
+
+2.1. Experimental/sampling design
+
+First of all, The Personal Display Talk was developed in a small console C# program. For testing and verifying we did an analysis of the console program is verified that, it was possible to do the commands we want to use. We tested voice commands and how System Speech Recognition and System Speech Synthesis would best work with the personal display talk.
+
+2.2. Data analysis
+
+Using Visual Studio 2013 Ultimate built-in code analysis, we did not see any errors in our console program so we decided to move the furniture with develop to a more advance. Program using XAML with a Voice engine and Trigger for the commands.
+
+3: Results
+
+The result was with success we now have a beta of a Voice System that can be used on the Personal display.
+
+4: Discussion
+
+The personal Display Talk makes it easier for the user to edit data more effortless the personal Display Talk makes it easier for the user to edit data more effortless
+
+5: Conclusions
+
+The conclusions drawn from the results are, that is possible to make it easier to read and edit manuals on board ISS
+
+References
+
+MSDN: Speech Recognition (Microsoft.Speech)
+https://msdn.microsoft.com/en-us/library/hh378380(v=office.14).aspx
+
+Appendices
+From ideas to a concept.doc
