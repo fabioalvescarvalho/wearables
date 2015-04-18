@@ -9,7 +9,7 @@ Built using the Gadgeteer prototyping toolkit. Key files, describing the soft- a
 
 _____________________________________________________________________________________________________________________________
 
-THE PERSONAL DISPLAY TALK 
+THE PERSONAL DISPLAY TALK (PDTalk)
 
 Technical report for The Personal Display Talk
 
