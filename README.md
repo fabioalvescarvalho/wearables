@@ -54,11 +54,13 @@ Paper manual’s at ISS and edit the manuals.
 6: Recommendations
 
 We recommend a development of an eye tracking system that can integrate with the voice recognition system
+
 References
 MSDN: Speech Recognition (Microsoft.Speech)
 https://msdn.microsoft.com/en-us/library/hh378380(v=office.14).aspx
 
 Appendices
+
 None
 _____________________________________________________________________________________________________________________________
 	
