@@ -10,10 +10,10 @@ ___Introduction___
 Digitised manuals are hard work to navigate, not least in zero gravity onboard the International Space Station. The Swedish NASA Space Apps winners countered this issue by designing The Personal Display. This GitHub page is the file depository for the functional hardware prototype, which encompasses a display as well as tactile and touchless user input hooked up to a microcontroller.
 
 ___Methodology___
-The Gadgeteer prototyping toolkit was used to build the hardware MVP. The mainboard was encoded in VB using Visual Studio (VS) Express 2012.
+The Gadgeteer prototyping toolkit was used to build the hardware MVP.
 
 _Hardware_
-The circuit contains a display (N18 v1.1), two buttons (v1.2 and v1.3), a light sensor (LightSense v1.1), the FEZ Spider 1.0 mainboard and a USB Client (v1.2). All hardware are produced by GHI Electronics.
+The circuit contains a display (N18 v1.1), two buttons (v1.2 and v1.3), a light sensor (LightSense v1.1), the FEZ Spider 1.0 mainboard and a USB Client (DP v1.2). All hardware are produced by GHI Electronics.
 
 _Software_
 Visual Studio Express 2012 was used to generate a Gadgeteer application using a VB template. Excerpts from the NASA manual "Crew Escape Systems 21002, Section 2.0: CREW-WORN EQUIPMENT" were hardcoded into string arrays for easy access and display.
