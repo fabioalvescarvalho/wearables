@@ -1,4 +1,4 @@
-# The Personal Display: hardware
+# The Personal Display: functional hardware prototype
 Swedish Team wearables' project, for the 2015 NASA Space Apps Hackathon
 
 By A Caroline E Dahl, April 2015
@@ -35,8 +35,10 @@ Crew Escape Systems 21002, Section 2.0: CREW-WORN EQUIPMENT
 http://www.nasa.gov/centers/johnson/pdf/383443main_crew_escape_workbook.pdf
 
 Overview of the .NET Gadgeteer toolkit: http://en.wikipedia.org/wiki/.NET_Gadgeteer
+
 Gadgeteer homepage: http://www.netmf.com/gadgeteer/
 
 #### Find out more
 For further details of the project, see our project website
+
 https://2015.spaceappschallenge.org/project/the-personal-display/
