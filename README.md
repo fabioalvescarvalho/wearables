@@ -7,7 +7,6 @@ using InputManager.dll, C#, XAML, our own Voice Engine and Triggers with System.
 ___The functional hardware prototype (MVP)___
 is built using the Gadgeteer prototyping toolkit. Key files as well as descriptions of the soft- and hardware are found in the Gadgeteer_hardware folder.
 
-The hardware prototype was made to be compatible with both Speech-to-text and eyetracking soft- and hardware, and efforts to merge these technologies are ongoing.
-
 For further details of the project, see our project website
+
 https://2015.spaceappschallenge.org/project/the-personal-display/
