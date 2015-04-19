@@ -1,5 +1,5 @@
-# The Personal Display: functional hardware prototype
-Swedish Team wearables' project, for the 2015 NASA Space Apps Hackathon
+# The Personal Display: hardware prototype
+The project of the Swedish Team Wearables, for the 2015 NASA Space Apps Hackathon
 
 By A Caroline E Dahl, April 2015
 
