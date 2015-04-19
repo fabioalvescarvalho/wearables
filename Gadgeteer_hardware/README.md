@@ -1,7 +1,5 @@
 # The Personal Display: hardware prototype
-The project of the Swedish Team Wearables, for the 2015 NASA Space Apps Hackathon
-
-By A Caroline E Dahl, April 2015
+By A Caroline E Dahl, Stockholm April 2015, for the 2015 NASA Space Apps Hackathon
 
 #### Executive Summary
 The functional hardware prototype (MVP) of the Personal Display is built using the Gadgeteer prototyping toolkit and encompasses a display as well as tactile and touchless user input hooked up to a microcontroller. The hardware prototype is fully operational and was demo'ed during the Swedish NASA Space Apps Challenge finals. The hardware prototype was made to be compatible with both Speech-to-text and eyetracking soft- and hardware, and efforts to merge these technologies are ongoing.
