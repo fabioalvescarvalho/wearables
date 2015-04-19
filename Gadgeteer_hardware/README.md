@@ -20,6 +20,7 @@ Visual Studio Express 2012 was used to generate a Gadgeteer application using a 
 The hardware circuit was modelled in VS Express'12. The user may use either tactile (button) or high-intensity light input (laser) to guide him/herself through the manual. By default, the first manual page is displayed and auto-scrolling is off. The two buttons have auto-scroll and reset functionality, respectively. Auto-scroll makes new pages appear automatically every 5s, while Reset reverts display content to the first page of the manual and stops auto-scrolling. The light level is sensed every 500 ms, and if beyond the laser threshold of 900 lux, the display updates. Display updating stops when laser input is no longer detected, in which case the display reverts to its prior button-state, whether Reset or Auto-scrolling.
 
 The microcontroller was encoded using the above instructions. All components were sewn into a latex glove and this prototype was fully operational during the live demo at NASA Space Apps Challenge. Images of the the complete circuit diagram and the working prototype are available here:
+
 https://drive.google.com/folderview?id=0Bw59TasEg3SJfnFLcm9YcHJ3WjNfUERxTUd3TUxlYkxnZ0xCRGpEQVdPT3ZmcS1Gdm14T2s&usp=sharing
 
 N.B. In-line comments are available throughout the code. The full VS'12 project encompasses more files than are listed in this directory; default and auto-generated files are omitted.
