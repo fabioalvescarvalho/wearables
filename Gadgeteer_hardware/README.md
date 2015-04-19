@@ -1,5 +1,6 @@
 # The Personal Display: hardware
 Swedish Team wearables' project, for the 2015 NASA Space Apps Hackathon
+
 By A Caroline E Dahl, April 2015
 
 ___Executive Summary___
